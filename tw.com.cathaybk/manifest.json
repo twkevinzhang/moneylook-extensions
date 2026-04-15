@@ -5,9 +5,7 @@
   "versionName": "1.0.0",
   "description": "國泰世華銀行",
   "loginUrl": "https://www.cathaybk.com.tw/MyBank/Quicklinks/Home/Login",
-  "targetDomains": [
-    "www.cathaybk.com.tw"
-  ],
+  "targetDomains": ["www.cathaybk.com.tw"],
   "scriptPath": "extension-cathaybk.min.js",
   "iconUrl": null
 }
