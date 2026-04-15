@@ -8,6 +8,6 @@
   "targetDomains": [
     "www.cathaybk.com.tw"
   ],
-  "scriptPath": "extension-script.min.js",
+  "scriptPath": "extension-cathaybk.min.js",
   "iconUrl": null
 }
