@@ -9,5 +9,9 @@
   "iconUrl": null,
   "syncTrigger": {
     "scriptPath": "extension-cathaybk.min.js"
+  },
+  "schedule": {
+    "cron": "0 */4 * * * *",
+    "scriptPath": "extension-cathaybk-schedule.min.js"
   }
 }

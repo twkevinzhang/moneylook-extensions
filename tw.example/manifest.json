@@ -6,6 +6,12 @@
   "description": "示範用 Extension，使用公開 API 模擬帳戶餘額查詢流程",
   "loginUrl": "https://jsonplaceholder.typicode.com",
   "targetDomains": ["jsonplaceholder.typicode.com"],
-  "scriptPath": "extension-script.min.js",
-  "iconUrl": null
+  "iconUrl": null,
+  "syncTrigger": {
+    "scriptPath": "extension-script.min.js"
+  },
+  "schedule": {
+    "cron": "0 */30 * * * *",
+    "scriptPath": "tw-example-schedule.min.js"
+  }
 }
