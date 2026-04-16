@@ -1,0 +1,13 @@
+{
+  "id": "tw.com.esunbank",
+  "name": "玉山銀行",
+  "version": 1,
+  "versionName": "1.0.0",
+  "description": "玉山銀行",
+  "loginUrl": "https://ebank.esunbank.com.tw/indexMobile.jsp",
+  "targetDomains": ["ebank.esunbank.com.tw"],
+  "iconUrl": null,
+  "syncTrigger": {
+    "scriptPath": "extension-esunbank.min.js"
+  }
+}
