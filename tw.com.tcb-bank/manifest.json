@@ -1,0 +1,13 @@
+{
+  "id": "tw.com.tcb-bank",
+  "name": "合作金庫",
+  "version": 1,
+  "versionName": "1.0.0",
+  "description": "合作金庫銀行網路銀行",
+  "loginUrl": "https://cobank.tcb-bank.com.tw/TCB.TWNB.IDV.NEW.WEB/",
+  "targetDomains": ["cobank.tcb-bank.com.tw"],
+  "iconUrl": null,
+  "syncTrigger": {
+    "scriptPath": "extension-tcb-bank.min.js"
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "id": "tw.com.bot",
+  "name": "臺灣銀行",
+  "version": 1,
+  "versionName": "1.0.0",
+  "description": "臺灣銀行",
+  "loginUrl": "https://ebank.bot.com.tw/Home/NetBank",
+  "targetDomains": ["ebank.bot.com.tw"],
+  "iconUrl": null,
+  "syncTrigger": {
+    "scriptPath": "extension-bot.min.js"
+  }
+}

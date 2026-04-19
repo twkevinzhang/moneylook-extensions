@@ -1,0 +1,17 @@
+{
+  "id": "tw.com.ubot",
+  "name": "聯邦銀行",
+  "version": 1,
+  "versionName": "1.0.0",
+  "description": "聯邦商業銀行",
+  "loginUrl": "https://www.ubot.com.tw/MyBank/",
+  "targetDomains": ["www.ubot.com.tw"],
+  "iconUrl": null,
+  "syncTrigger": {
+    "scriptPath": "extension-ubot.min.js"
+  },
+  "schedule": {
+    "cron": "0 */9 * * * *",
+    "scriptPath": "extension-ubot-schedule.min.js"
+  }
+}

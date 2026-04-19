@@ -1,0 +1,13 @@
+{
+  "id": "tw.com.taishinbank",
+  "name": "台新銀行",
+  "version": 1,
+  "versionName": "1.0.0",
+  "description": "台新銀行",
+  "loginUrl": "https://my.taishinbank.com.tw/TIBNetBank/login",
+  "targetDomains": ["my.taishinbank.com.tw"],
+  "iconUrl": null,
+  "syncTrigger": {
+    "scriptPath": "extension-taishinbank.min.js"
+  }
+}
