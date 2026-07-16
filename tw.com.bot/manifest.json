@@ -1,8 +1,8 @@
 {
   "id": "tw.com.bot",
   "name": "臺灣銀行",
-  "version": 4,
-  "versionName": "3.1.0",
+  "version": 5,
+  "versionName": "3.1.1",
   "description": "臺灣銀行",
   "iconUrl": null,
   "credential": {
