@@ -1,10 +1,35 @@
 {
   "id": "tw.com.tcb-bank",
   "name": "合作金庫",
-  "version": 2,
-  "versionName": "2.0.0",
+  "version": 3,
+  "versionName": "3.0.0",
   "description": "合作金庫銀行網路銀行",
   "iconUrl": null,
+  "credential": {
+    "fields": [
+      {
+        "key": "customerId",
+        "label": "身分證字號／統一編號",
+        "type": "text",
+        "required": true,
+        "summary": true
+      },
+      {
+        "key": "userId",
+        "label": "使用者代號",
+        "type": "text",
+        "required": true,
+        "summary": true
+      },
+      {
+        "key": "password",
+        "label": "網路銀行密碼",
+        "type": "password",
+        "required": true,
+        "summary": false
+      }
+    ]
+  },
   "syncTrigger": {
     "scriptPath": "extension-tcb-bank.min.js"
   }

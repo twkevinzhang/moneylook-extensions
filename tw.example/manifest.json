@@ -1,10 +1,28 @@
 {
   "id": "tw.example",
   "name": "範例銀行（Demo）",
-  "version": 2,
-  "versionName": "2.0.0",
+  "version": 3,
+  "versionName": "3.0.0",
   "description": "示範用 Extension，使用公開 API 模擬帳戶餘額查詢流程",
   "iconUrl": null,
+  "credential": {
+    "fields": [
+      {
+        "key": "username",
+        "label": "帳號",
+        "type": "text",
+        "required": true,
+        "summary": true
+      },
+      {
+        "key": "password",
+        "label": "密碼",
+        "type": "password",
+        "required": true,
+        "summary": false
+      }
+    ]
+  },
   "syncTrigger": {
     "scriptPath": "extension-script.min.js"
   }
