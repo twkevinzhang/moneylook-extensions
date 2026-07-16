@@ -1,9 +1,9 @@
 {
-  "id": "tw.com.ubot",
-  "name": "聯邦銀行／New New Bank",
-  "version": 4,
-  "versionName": "3.1.0",
-  "description": "透過聯邦個人網銀同步存款帳戶；New New Bank 帳戶是否顯示依聯邦個人網銀回應為準",
+  "id": "tw.com.ctbcbank",
+  "name": "中國信託",
+  "version": 3,
+  "versionName": "3.0.0",
+  "description": "透過中國信託網路銀行同步臺幣與外幣帳戶餘額",
   "iconUrl": null,
   "credential": {
     "fields": [
@@ -31,6 +31,6 @@
     ]
   },
   "syncTrigger": {
-    "scriptPath": "extension-ubot.min.js"
+    "scriptPath": "extension-ctbcbank.min.js"
   }
 }

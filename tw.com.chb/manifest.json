@@ -1,15 +1,15 @@
 {
-  "id": "tw.com.ubot",
-  "name": "聯邦銀行／New New Bank",
-  "version": 4,
-  "versionName": "3.1.0",
-  "description": "透過聯邦個人網銀同步存款帳戶；New New Bank 帳戶是否顯示依聯邦個人網銀回應為準",
+  "id": "tw.com.chb",
+  "name": "彰化銀行",
+  "version": 3,
+  "versionName": "3.0.0",
+  "description": "彰化銀行個人網路銀行",
   "iconUrl": null,
   "credential": {
     "fields": [
       {
         "key": "customerId",
-        "label": "身分證字號／統一編號",
+        "label": "身分證字號／居留證號",
         "type": "text",
         "required": true,
         "summary": true
@@ -23,7 +23,7 @@
       },
       {
         "key": "password",
-        "label": "網路銀行密碼",
+        "label": "使用者密碼",
         "type": "password",
         "required": true,
         "summary": false
@@ -31,6 +31,6 @@
     ]
   },
   "syncTrigger": {
-    "scriptPath": "extension-ubot.min.js"
+    "scriptPath": "extension-chb.min.js"
   }
 }

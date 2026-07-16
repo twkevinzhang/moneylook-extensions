@@ -1,9 +1,9 @@
 {
-  "id": "tw.com.ubot",
-  "name": "聯邦銀行／New New Bank",
-  "version": 4,
-  "versionName": "3.1.0",
-  "description": "透過聯邦個人網銀同步存款帳戶；New New Bank 帳戶是否顯示依聯邦個人網銀回應為準",
+  "id": "tw.gov.post.ipost",
+  "name": "中華郵政網路郵局",
+  "version": 3,
+  "versionName": "3.0.0",
+  "description": "透過中華郵政網路郵局同步存簿、劃撥與公債儲金帳戶餘額",
   "iconUrl": null,
   "credential": {
     "fields": [
@@ -23,7 +23,7 @@
       },
       {
         "key": "password",
-        "label": "網路銀行密碼",
+        "label": "網路密碼",
         "type": "password",
         "required": true,
         "summary": false
@@ -31,6 +31,6 @@
     ]
   },
   "syncTrigger": {
-    "scriptPath": "extension-ubot.min.js"
+    "scriptPath": "extension-ipost.min.js"
   }
 }
