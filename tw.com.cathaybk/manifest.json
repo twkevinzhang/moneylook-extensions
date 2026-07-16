@@ -1,17 +1,11 @@
 {
   "id": "tw.com.cathaybk",
   "name": "國泰世華",
-  "version": 1,
-  "versionName": "1.0.0",
+  "version": 2,
+  "versionName": "2.0.0",
   "description": "國泰世華銀行",
-  "loginUrl": "https://www.cathaybk.com.tw/MyBank/Quicklinks/Home/Login",
-  "targetDomains": ["www.cathaybk.com.tw"],
   "iconUrl": null,
   "syncTrigger": {
     "scriptPath": "extension-cathaybk.min.js"
-  },
-  "schedule": {
-    "cron": "0 */4 * * * *",
-    "scriptPath": "extension-cathaybk-schedule.min.js"
   }
 }

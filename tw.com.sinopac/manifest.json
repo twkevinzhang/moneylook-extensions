@@ -1,11 +1,9 @@
 {
   "id": "tw.com.sinopac",
   "name": "永豐銀行",
-  "version": 1,
-  "versionName": "1.0.0",
+  "version": 2,
+  "versionName": "2.0.0",
   "description": "永豐銀行 (Sinopac)",
-  "loginUrl": "https://mma.sinopac.com/",
-  "targetDomains": ["mma.sinopac.com"],
   "iconUrl": null,
   "syncTrigger": {
     "scriptPath": "extension-sinopac.min.js"

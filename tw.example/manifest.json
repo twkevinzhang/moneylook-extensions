@@ -1,17 +1,11 @@
 {
   "id": "tw.example",
   "name": "範例銀行（Demo）",
-  "version": 1,
-  "versionName": "1.0.0",
+  "version": 2,
+  "versionName": "2.0.0",
   "description": "示範用 Extension，使用公開 API 模擬帳戶餘額查詢流程",
-  "loginUrl": "https://jsonplaceholder.typicode.com",
-  "targetDomains": ["jsonplaceholder.typicode.com"],
   "iconUrl": null,
   "syncTrigger": {
     "scriptPath": "extension-script.min.js"
-  },
-  "schedule": {
-    "cron": "0 */30 * * * *",
-    "scriptPath": "tw-example-schedule.min.js"
   }
 }
