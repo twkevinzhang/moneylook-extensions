@@ -1,8 +1,8 @@
 {
   "id": "tw.com.chb",
   "name": "彰化銀行",
-  "version": 9,
-  "versionName": "3.1.8",
+  "version": 10,
+  "versionName": "3.1.9",
   "description": "彰化銀行個人網路銀行",
   "iconUrl": null,
   "credential": {
