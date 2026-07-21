@@ -1,29 +1,29 @@
 {
-  "id": "tw.com.chb",
-  "name": "彰化銀行",
-  "version": 12,
-  "versionName": "3.1.11",
-  "description": "彰化銀行個人網路銀行",
+  "id": "tw.com.skbank",
+  "name": "新光銀行",
+  "version": 3,
+  "versionName": "3.0.0",
+  "description": "新光銀行個人網路銀行（信用卡總覽 L1 契約）",
   "iconUrl": null,
   "credential": {
     "fields": [
       {
-        "key": "customerId",
-        "label": "身分證字號／居留證號",
+        "key": "id",
+        "label": "身分證字號／統一編號",
         "type": "text",
         "required": true,
         "summary": true
       },
       {
-        "key": "userId",
-        "label": "使用者代號",
+        "key": "alias",
+        "label": "用戶代號",
         "type": "text",
         "required": true,
         "summary": true
       },
       {
         "key": "password",
-        "label": "使用者密碼",
+        "label": "理財密碼",
         "type": "password",
         "required": true,
         "summary": false
@@ -31,6 +31,6 @@
     ]
   },
   "syncTrigger": {
-    "scriptPath": "extension-chb.min.js"
+    "scriptPath": "extension-skbank.min.js"
   }
 }
