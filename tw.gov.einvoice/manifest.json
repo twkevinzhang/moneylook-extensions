@@ -1,0 +1,29 @@
+{
+  "id": "tw.gov.einvoice",
+  "name": "財政部雲端發票",
+  "version": 3,
+  "versionName": "3.0.0",
+  "description": "讀取手機條碼載具的消費發票紀錄",
+  "iconUrl": null,
+  "credential": {
+    "fields": [
+      {
+        "key": "mobileNumber",
+        "label": "手機號碼",
+        "type": "text",
+        "required": true,
+        "summary": false
+      },
+      {
+        "key": "verificationCode",
+        "label": "手機條碼驗證碼",
+        "type": "password",
+        "required": true,
+        "summary": false
+      }
+    ]
+  },
+  "syncTrigger": {
+    "scriptPath": "extension-einvoice.min.js"
+  }
+}
