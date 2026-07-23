@@ -1,8 +1,8 @@
 {
   "id": "tw.com.taishinbank",
   "name": "台新銀行",
-  "version": 14,
-  "versionName": "3.5.0",
+  "version": 15,
+  "versionName": "3.5.1",
   "description": "台新銀行",
   "iconUrl": null,
   "credential": {
