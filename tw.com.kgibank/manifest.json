@@ -1,29 +1,29 @@
 {
-  "id": "tw.com.skbank",
-  "name": "新光銀行",
-  "version": 4,
-  "versionName": "3.1.0",
-  "description": "新光銀行信用卡額度、帳單與未入帳明細",
+  "id": "tw.com.kgibank",
+  "name": "凱基銀行",
+  "version": 3,
+  "versionName": "3.0.0",
+  "description": "凱基銀行個人網路銀行（登入與產品契約開發中）",
   "iconUrl": null,
   "credential": {
     "fields": [
       {
-        "key": "id",
-        "label": "身分證字號／統一編號",
+        "key": "idNo",
+        "label": "身分證字號",
         "type": "text",
         "required": true,
         "summary": true
       },
       {
-        "key": "alias",
-        "label": "用戶代號",
+        "key": "userNo",
+        "label": "使用者代號",
         "type": "text",
         "required": true,
         "summary": true
       },
       {
         "key": "password",
-        "label": "理財密碼",
+        "label": "網路銀行密碼",
         "type": "password",
         "required": true,
         "summary": false
@@ -31,6 +31,6 @@
     ]
   },
   "syncTrigger": {
-    "scriptPath": "extension-skbank.min.js"
+    "scriptPath": "extension-kgibank.min.js"
   }
 }
