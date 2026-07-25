@@ -1,9 +1,9 @@
 {
   "id": "tw.com.ubot",
   "name": "聯邦銀行／New New Bank",
-  "version": 12,
-  "versionName": "3.2.0",
-  "description": "透過聯邦個人網銀同步存款帳戶、信用卡額度、近四期帳單與未出帳消費；New New Bank 帳戶是否顯示依聯邦個人網銀回應為準",
+  "version": 14,
+  "versionName": "3.3.1",
+  "description": "透過聯邦個人網銀同步存款帳戶、官方一年內交易明細、信用卡額度、近四期帳單與未出帳消費；New New Bank 帳戶是否顯示依聯邦個人網銀回應為準",
   "iconUrl": null,
   "credential": {
     "fields": [
