@@ -1,8 +1,8 @@
 {
   "id": "tw.com.kgibank",
   "name": "凱基銀行",
-  "version": 6,
-  "versionName": "3.0.1",
+  "version": 7,
+  "versionName": "3.0.2",
   "description": "凱基銀行個人網路銀行（登入與產品契約開發中）",
   "iconUrl": null,
   "credential": {
