@@ -1,7 +1,7 @@
 {
   "id": "tw.gov.einvoice",
   "name": "財政部雲端發票",
-  "version": 7,
+  "version": 8,
   "versionName": "3.1.2",
   "description": "讀取手機條碼載具的消費發票紀錄",
   "iconUrl": null,

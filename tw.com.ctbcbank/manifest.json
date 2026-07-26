@@ -1,7 +1,7 @@
 {
   "id": "tw.com.ctbcbank",
   "name": "中國信託",
-  "version": 9,
+  "version": 10,
   "versionName": "3.2.2",
   "description": "透過中國信託網路銀行同步臺幣與外幣帳戶餘額，以及臺幣活存／支票存款交易明細；後續同步從最新紀錄增量更新",
   "iconUrl": null,
