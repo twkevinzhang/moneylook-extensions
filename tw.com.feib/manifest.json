@@ -1,29 +1,29 @@
 {
   "id": "tw.com.feib",
-  "name": "遠東商銀",
-  "version": 3,
-  "versionName": "3.0.0",
-  "description": "遠東商銀個人網路銀行（登入與產品契約開發中）",
+  "name": "遠東商銀信用卡",
+  "version": 4,
+  "versionName": "3.1.0",
+  "description": "讀取遠東商銀信用卡帳務摘要與交易明細",
   "iconUrl": null,
   "credential": {
     "fields": [
       {
         "key": "customerId",
-        "label": "身分證字號／居留證號",
+        "label": "持卡人身分證字號／居留證號",
         "type": "text",
         "required": true,
         "summary": true
       },
       {
         "key": "userId",
-        "label": "使用者代號",
+        "label": "信用卡網銀使用者代號",
         "type": "text",
         "required": true,
         "summary": true
       },
       {
         "key": "password",
-        "label": "網路銀行密碼",
+        "label": "信用卡網銀密碼",
         "type": "password",
         "required": true,
         "summary": false
