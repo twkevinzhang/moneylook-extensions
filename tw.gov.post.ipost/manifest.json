@@ -1,8 +1,8 @@
 {
   "id": "tw.gov.post.ipost",
   "name": "中華郵政網路郵局",
-  "version": 8,
-  "versionName": "3.2.0",
+  "version": 9,
+  "versionName": "3.2.1",
   "description": "透過中華郵政網路郵局同步存簿、劃撥與公債儲金帳戶餘額，並同步存簿交易明細",
   "iconUrl": null,
   "credential": {
